@@ -17,8 +17,11 @@
 	display_order = JOB_DISPLAY_ORDER_FBI
 	exp_type_department = EXP_TYPE_NATIONAL_SECURITY
 
-	allowed_species = list("Human")
-	minimal_generation = 13
+	allowed_species = list(
+		"Human",
+		"Vampire",
+	)
+	allowed_bloodlines = list(CLAN_NONE)
 
 	duty = "You are here on an officially unofficial assignment, to look into local oddities and sort them out as deemed reasonable, whatever that means. To the point you arent even assigned a proper office, as much a ghetto hideout in the local Hotel, quietly paid for with some renovations. If anyone asks? Make something mundane up, they wouldnt believe the truth anyways."
 	minimal_masquerade = 0

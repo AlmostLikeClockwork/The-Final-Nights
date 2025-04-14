@@ -114,7 +114,6 @@
 
 	display_order = JOB_DISPLAY_ORDER_HARPY
 
-//	minimal_generation = 12	//Uncomment when players get exp enough
 	minimal_masquerade = 5
 
 	my_contact_is_important = TRUE

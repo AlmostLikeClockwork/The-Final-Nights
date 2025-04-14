@@ -72,7 +72,7 @@
 	var/allow_bureaucratic_error = FALSE
 
 	///Minimum vampire Generation necessary to do this job.
-	var/minimal_generation = 13
+	var/minimal_generation = 14
 	///Minimum Masquerade level necessary to do this job.
 	var/minimal_masquerade = 1
 

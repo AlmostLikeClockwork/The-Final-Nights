@@ -13,7 +13,12 @@
 	display_order = JOB_DISPLAY_ORDER_POLICE
 	exp_type_department = EXP_TYPE_POLICE
 
-	allowed_species = list("Ghoul", "Human")
+	allowed_species = list(
+		"Ghoul",
+		"Human",
+		"Vampire",
+	)
+	allowed_bloodlines = list(CLAN_NONE)
 	species_slots = list("Ghoul" = 1)
 
 	duty = "Report emergencies to the correct emergency service."

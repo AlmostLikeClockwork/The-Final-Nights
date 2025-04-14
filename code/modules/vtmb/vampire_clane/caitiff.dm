@@ -5,3 +5,13 @@
 	clane_disciplines = list()
 	male_clothes = /obj/item/clothing/under/vampire/homeless
 	female_clothes = /obj/item/clothing/under/vampire/homeless/female
+
+/datum/vampireclane/caitiff/post_gain(mob/living/carbon/human/H)
+	. = ..()
+
+	// Thin-blood it up if 14th gen or higher.
+	if(H.generation >= 14)
+		if(!HAS_TRAIT(H, TRAIT_BLUSH_OF_HEALTH))
+			ADD_TRAIT(H, TRAIT_BLUSH_OF_HEALTH, "thinblood")
+		if(!HAS_TRAIT(H, TRAIT_WARM_AURA))
+			ADD_TRAIT(H, TRAIT_WARM_AURA, "thinblood")
