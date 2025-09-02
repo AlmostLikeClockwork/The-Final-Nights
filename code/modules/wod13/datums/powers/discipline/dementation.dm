@@ -312,7 +312,7 @@
 		to_chat(target, span_danger("A scream echoes in your mind—yours or theirs, you can't tell anymore."))
 
 		// 8 second instastun - needs to be looked at in the future
-		new /datum/hallucination/death(target, TRUE)
+		target.Immobilize(4 SECONDS)
 		SEND_SOUND(target, sound('code/modules/wod13/sounds/insanity.ogg'))
 
 	else
