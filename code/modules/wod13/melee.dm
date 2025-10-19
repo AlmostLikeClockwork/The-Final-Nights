@@ -478,9 +478,10 @@
 	icon = 'code/modules/wod13/weapons.dmi'
 	icon_state = "knife"
 	force = 30
-	wound_bonus = -5
-	bare_wound_bonus = 5
-	throwforce = 15
+	wound_bonus = 5
+	bare_wound_bonus = 10
+	throwforce = 50
+	embedding = list(embed_chance=25, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, rip_time=4)
 	attack_verb_continuous = list("slashes", "cuts")
 	attack_verb_simple = list("slash", "cut")
 	hitsound = 'sound/weapons/slash.ogg'
@@ -852,10 +853,11 @@
 	if(extended)
 		force = 25
 		w_class = WEIGHT_CLASS_NORMAL
-		throwforce = 15
+		throwforce = 45
+		embedding = list(embed_chance=25, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, rip_time=4)
 		armour_penetration = 55
 		wound_bonus = 5
-		bare_wound_bonus = 5
+		bare_wound_bonus = 10
 		icon_state = "switchblade1"
 		attack_verb_continuous = list("slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
 		attack_verb_simple = list("slash", "stab", "slice", "tear", "lacerate", "rip", "dice", "cut")
