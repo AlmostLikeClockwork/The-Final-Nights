@@ -481,7 +481,7 @@
 	wound_bonus = 5
 	bare_wound_bonus = 10
 	throwforce = 50
-	embedding = list(embed_chance=25, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, rip_time=4)
+	embedding = list(embed_chance=15, fall_chance=4, jostle_chance=1, ignore_throwspeed_threshold=TRUE, rip_time=4)
 	attack_verb_continuous = list("slashes", "cuts")
 	attack_verb_simple = list("slash", "cut")
 	hitsound = 'sound/weapons/slash.ogg'
@@ -854,7 +854,7 @@
 		force = 25
 		w_class = WEIGHT_CLASS_NORMAL
 		throwforce = 45
-		embedding = list(embed_chance=25, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, rip_time=4)
+		embedding = list(embed_chance=15, fall_chance=4, jostle_chance=1, ignore_throwspeed_threshold=TRUE, rip_time=4)
 		armour_penetration = 55
 		wound_bonus = 5
 		bare_wound_bonus = 10
